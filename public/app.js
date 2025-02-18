@@ -1,4 +1,5 @@
-const socket = io();
+const socket = io('https://chat-en-tiempo-real-3kxz.onrender.com');  // ✅ Conexión desde el cliente
+
 let username = '';
 const notificationSound = new Audio('/sounds/notification.mp3');
 const messageInput = document.getElementById('messageInput');
